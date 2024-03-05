@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const NavBar = ({ setCategory }) => {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark" cursor = "pointer">

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import NewsItem from "./NewsItem";
 
+// eslint-disable-next-line react/prop-types
 const NewsBoard = ({ category }) => {
   const [articles, setArticles] = useState([]);
 
